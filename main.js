@@ -1,5 +1,10 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  base: '/viyana2026/'
+})
 
 const CONFIG = {
   modelPath: 'dinosaur/source/dinosaur.glb',
